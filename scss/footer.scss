@@ -1,0 +1,70 @@
+/*Footer*/
+
+footer {
+    width: 100%;
+    background-color: #585656;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contenedor {
+    display: flex;
+    align-items: center;
+  
+    img {
+      width: 60px;
+      height: 60px;
+      margin-right: 20px;
+    }
+  
+    p {
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      font-family: 'Inter', sans-serif;
+      font-weight: 100;
+      margin: 0;
+    }
+  }
+  
+  .textofooter p {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+  }
+  
+  .redes {
+    p {
+      font-family: 'Libre Franklin', sans-serif;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      font-size: 2rem;
+      color: #ffffff;
+    }
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+  }
+  
+  .redescontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .redes img {
+    height: 70px;
+    width: auto;
+    margin-right: 10px;
+  }

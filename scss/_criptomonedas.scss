@@ -1,0 +1,81 @@
+/*Mixin de parrafos*/
+
+@mixin parrafos {
+
+  font-size: 40px;
+  font-family: $fontparatexto;
+  font-weight: 200;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+/*criptomonedas*/ 
+.contenedorcripto {
+  text-align: center;
+  margin: 10px;
+  display: flex;
+
+  .izquierda-img,
+  .derecha-img2 {
+    flex: 0 0 40%;
+    margin-right: 20px;
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  .contenidocripto,
+  .contenido {
+    text-align: center;
+    
+    
+
+    h2 {
+      margin: 0;
+      margin-bottom: 50px;
+      font-size: 40px;
+      color: rgb(0, 0, 0);
+      font-family: $fontparatitulos;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .contenidoparrafo {
+      font-family: $fontparatexto;
+      @include parrafos;
+      text-align: center;
+    }
+  }
+
+  .criptoimg img {
+    height: 500px;
+    width: 800px;
+    margin: 25px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.797);
+  }
+
+  p {
+    text-align: center;
+    font-family: $fontparatexto;
+  }
+  
+
+
+
+}
+
+.button {
+  @include boton; 
+
+  margin-bottom: 150px;
+
+
+.button:hover {
+
+   background-color: $botonhover;
+   cursor: pointer;
+   transition: .3s;
+  }
+
+}

@@ -1,0 +1,38 @@
+/*Imagen de bienvenida - Home*/
+
+.contable {
+    position: relative;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: auto;
+        opacity: 0.9;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.texto {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: $fontparatexto;
+    font-weight: 300;
+}
+.contable {
+    position: relative;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: auto;
+        opacity: 0.9;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+}
+

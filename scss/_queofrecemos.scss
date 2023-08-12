@@ -1,0 +1,70 @@
+/*Servicios que brindamos - Servicios site*/
+
+
+main {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.ofrecemos {
+  
+  
+  
+  
+  
+  h1 {
+    text-align: center;
+    font-family: $fontparatitulos;
+    font-weight: 200;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+
+}
+
+.containerofrecemos {
+
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  .izquierda-img,
+  .derecha-img2 {
+    flex: 0 0 40%;
+    margin-right: 20px;
+
+    img{ 
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) ;
+
+    }
+  }
+
+  .izquierda-img img,
+  .derecha-img2 img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .contenido { 
+    
+    h2 {
+      text-align: center;
+      font-family: $fontparatitulos;
+      font-weight: 200;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    p {
+      font-family: $fontparatexto;
+      font-weight: 1;
+      font-size: 1.5rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+
+
+
+
+    
+  }
+}
+

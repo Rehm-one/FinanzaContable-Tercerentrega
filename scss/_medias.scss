@@ -1,0 +1,94 @@
+/*Medias queris para 1024px */ 
+@media (max-width: 1024px) {
+    .texto {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 50px;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      font-family: 'Libre Franklin', sans-serif;
+      font-weight: 400;
+    }
+  
+    .quienes-somos {
+      text-align: center;
+    }
+  
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .grid-container {
+      display: none;
+    }
+  
+    .quienestexto {
+      margin: 20px;
+    }
+  
+    .derecha-img2, .izquierda-img {
+      display: none;
+    }
+  
+    .botonenviar {
+      width: 90%;
+      font-size: 1.3rem;
+      border: none;
+    }
+  
+    .containercontactocv {
+      display: block;
+    }
+  }
+/*Medias queris para 768px */ 
+
+@media (max-width: 768px) {
+    .texto {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 50px;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      font-family: 'Libre Franklin', sans-serif;
+      font-weight: 400;
+    }
+  
+    .grid-container {
+      display: none;
+    }
+  
+    .quienestexto {
+      margin: 20px;
+    }
+  
+    .descripcion div {
+      flex: 1 1 100%;
+    }
+  
+    .quienes-somos h1 {
+      font-size: 2rem;
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .izquierda-img, .derecha-img2 {
+      display: none;
+    }
+  }
+  

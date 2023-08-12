@@ -1,0 +1,91 @@
+/*Formulario*/
+.form-container {
+    display: block;
+  
+    form {
+      width: 40%;
+      height: auto;
+      margin-left: 50px;
+      margin-top: 40px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #585656;
+      padding: 50px;
+      border-radius: 20px;
+      font-size: 25px;
+      box-shadow: 0 5px 4px rgba(0, 0, 0, 0.797);
+      font-family: $fontparatexto;
+    }
+  
+    input, textarea {
+      margin-bottom: 25px;
+    }
+  }
+  
+  .h1form h1 {
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.564);
+    font-family: $fontparatitulos;
+  }
+  
+  .botonenviar {
+    width: 400px;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+    background-color: $colorboton;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.797);
+    font-family: $fontparatexto;
+    border: none;
+  }
+  
+  .h2contacto {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.564);
+    font-family: $fontparatitulos;
+  }
+  
+  .containercontactocv {
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+    margin-bottom: 150px;
+    font-family: $fontparatexto;
+  }
+  
+  .seccion ul {
+    text-align: center;
+    flex-direction: column;
+    background-color: #585656;
+    padding: 100px;
+    margin: auto;
+    height: 550px;
+    width: 500px;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 50px;
+    font-family: $fontparatexto;
+  }
+  
+  .h2cv {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.564);
+    font-family: $fontparatexto;
+  }
+  
+
