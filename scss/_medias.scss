@@ -1,94 +1,224 @@
-/*Medias queris para 1024px */ 
+/*Medias queris para 1024px */
 @media (max-width: 1024px) {
-    .texto {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 50px;
-      text-align: center;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      font-family: 'Libre Franklin', sans-serif;
-      font-weight: 400;
-    }
-  
-    .quienes-somos {
-      text-align: center;
-    }
-  
-    .card-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .card {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-  
-    .grid-container {
-      display: none;
-    }
-  
-    .quienestexto {
-      margin: 20px;
-    }
-  
-    .derecha-img2, .izquierda-img {
-      display: none;
-    }
-  
-    .botonenviar {
-      width: 90%;
-      font-size: 1.3rem;
-      border: none;
-    }
-  
-    .containercontactocv {
-      display: block;
-    }
+  .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: $fontparatexto;
+    font-weight: 200;
   }
-/*Medias queris para 768px */ 
+
+  .quienes-somos {
+    text-align: center;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .grid-container {
+    display: none;
+  }
+
+  .quienestexto {
+    margin: 20px;
+  }
+
+  .derecha-img2,
+  .izquierda-img {
+    display: none;
+  }
+
+  .botonenviar {
+    width: 90%;
+    font-size: 1.3rem;
+    border: none;
+  }
+
+  .containercontactocv {
+    display: block;
+  }
+}
+
+/*Medias queris para 768px */
 
 @media (max-width: 768px) {
+  .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: $fontparatexto;
+    font-weight: 200;
+  }
+
+  .grid-container {
+    display: none;
+  }
+
+  .quienestexto {
+    margin: 20px;
+  }
+
+  .descripcion div {
+    flex: 1 1 100%;
+  }
+
+  .quienes-somos h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .izquierda-img,
+  .derecha-img2 {
+    display: none;
+  }
+}
+
+.formcontainer { 
+
+  .h1form{ 
+
+    text-align: center;
+  }
+}
+
+@media (max-width: 468px) {
+  .contable {
     .texto {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 50px;
-      text-align: center;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      font-family: 'Libre Franklin', sans-serif;
-      font-weight: 400;
-    }
-  
-    .grid-container {
-      display: none;
-    }
-  
-    .quienestexto {
-      margin: 20px;
-    }
-  
-    .descripcion div {
-      flex: 1 1 100%;
-    }
-  
-    .quienes-somos h1 {
-      font-size: 2rem;
-    }
-  
-    .card {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-  
-    .izquierda-img, .derecha-img2 {
-      display: none;
+      font-size: 24px;
     }
   }
+}
+
+@media (max-width: 468px) {
   
+  .contable{ 
+    display: none;
+  }
+  .principalesServicios {
+    font-size: 2rem;
+    
+   
+    margin: 10px 0;
+  }
+  .brindamos { 
+
+    font-size: 1rem;
+  }
+
+
+  .form-container {
+    .h1form {
+      h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+        font-weight: 200;
+        font-family: $fontparatitulos;
+      }
+    }
+
+    form {
+      width: auto;
+      label {
+        font-size: 16px;
+      }
+
+      input[type="text"],
+      textarea {
+        font-size: 14px;
+      }
+
+      button.botonenviar {
+        font-size: 14px;
+      }
+    }
+  }
+
+
+  .containercontactocv { 
+
+    ul{ 
+
+      width: auto;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   
+
+      
+
+
+
+    
+

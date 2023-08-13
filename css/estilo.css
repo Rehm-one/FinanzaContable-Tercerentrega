@@ -547,11 +547,11 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 50px;
+    font-size: 4rem;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-family: "Libre Franklin", sans-serif;
-    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
   }
   .quienes-somos {
     text-align: center;
@@ -571,7 +571,8 @@ main {
   .quienestexto {
     margin: 20px;
   }
-  .derecha-img2, .izquierda-img {
+  .derecha-img2,
+  .izquierda-img {
     display: none;
   }
   .botonenviar {
@@ -591,11 +592,11 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 50px;
+    font-size: 3rem;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-family: "Libre Franklin", sans-serif;
-    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
   }
   .grid-container {
     display: none;
@@ -613,8 +614,53 @@ main {
     width: 100%;
     margin-bottom: 20px;
   }
-  .izquierda-img, .derecha-img2 {
+  .izquierda-img,
+  .derecha-img2 {
     display: none;
+  }
+}
+.formcontainer .h1form {
+  text-align: center;
+}
+
+@media (max-width: 468px) {
+  .contable .texto {
+    font-size: 24px;
+  }
+}
+@media (max-width: 468px) {
+  .contable {
+    display: none;
+  }
+  .principalesServicios {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  .brindamos {
+    font-size: 1rem;
+  }
+  .form-container .h1form h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 200;
+    font-family: "Libre Franklin", sans-serif;
+  }
+  .form-container form {
+    width: auto;
+  }
+  .form-container form label {
+    font-size: 16px;
+  }
+  .form-container form input[type=text],
+  .form-container form textarea {
+    font-size: 14px;
+  }
+  .form-container form button.botonenviar {
+    font-size: 14px;
+  }
+  .containercontactocv ul {
+    width: auto;
   }
 }
 
