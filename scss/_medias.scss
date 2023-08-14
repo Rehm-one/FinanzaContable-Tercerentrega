@@ -50,7 +50,21 @@
   .containercontactocv {
     display: block;
   }
+
+  .h1form{ 
+
+    text-align: center;
+  }
+
+
+  .contenido{ 
+
+    text-align: center;
+  }
 }
+
+
+
 
 /*Medias queris para 768px */
 
@@ -93,36 +107,44 @@
   .derecha-img2 {
     display: none;
   }
-}
 
-.formcontainer { 
+  .formcontainer {
 
-  .h1form{ 
+    .h1form {
+  
+      text-align: center;
+    }
+  }
+  .somos{ 
 
     text-align: center;
-  }
+  }  
 }
 
+
+/*Medias queris para 468px */
 @media (max-width: 468px) {
   .contable {
+    display: none;
     .texto {
       font-size: 24px;
     }
   }
-}
 
-@media (max-width: 468px) {
-  
-  .contable{ 
-    display: none;
+  .button{ 
+    
+    width: 300px;
   }
+ 
+
   .principalesServicios {
     font-size: 2rem;
-    
-   
+
+
     margin: 10px 0;
   }
-  .brindamos { 
+
+  .brindamos {
 
     font-size: 1rem;
   }
@@ -141,6 +163,7 @@
 
     form {
       width: auto;
+
       label {
         font-size: 16px;
       }
@@ -157,9 +180,9 @@
   }
 
 
-  .containercontactocv { 
+  .containercontactocv {
 
-    ul{ 
+    ul {
 
       width: auto;
     }
@@ -180,45 +203,3 @@
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-   
-
-      
-
-
-
-    
-

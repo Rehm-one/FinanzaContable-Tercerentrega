@@ -132,9 +132,9 @@ header a {
   font-size: 25px;
   border: none;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  font-weight: 150;
+  font-weight: 1rem;
   width: 400px;
-  height: 100px;
+  height: 150px;
   border-radius: 12px;
 }
 
@@ -440,9 +440,9 @@ main {
   font-size: 25px;
   border: none;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  font-weight: 150;
+  font-weight: 1rem;
   width: 400px;
-  height: 100px;
+  height: 150px;
   border-radius: 12px;
   margin-bottom: 150px;
 }
@@ -457,7 +457,7 @@ main {
   display: block;
 }
 .form-container form {
-  width: 40%;
+  width: 600px;
   height: auto;
   margin-left: 50px;
   margin-top: 40px;
@@ -584,6 +584,12 @@ main {
   .containercontactocv {
     display: block;
   }
+  .h1form {
+    text-align: center;
+  }
+  .contenido {
+    text-align: center;
+  }
 }
 /*Medias queris para 768px */
 @media (max-width: 768px) {
@@ -619,19 +625,23 @@ main {
   .derecha-img2 {
     display: none;
   }
-}
-.formcontainer .h1form {
-  text-align: center;
-}
-
-@media (max-width: 468px) {
-  .contable .texto {
-    font-size: 24px;
+  .formcontainer .h1form {
+    text-align: center;
+  }
+  .somos {
+    text-align: center;
   }
 }
+/*Medias queris para 468px */
 @media (max-width: 468px) {
   .contable {
     display: none;
+  }
+  .contable .texto {
+    font-size: 24px;
+  }
+  .button {
+    width: 300px;
   }
   .principalesServicios {
     font-size: 2rem;
