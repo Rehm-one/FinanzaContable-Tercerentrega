@@ -118,7 +118,7 @@ header a {
 }
 .brindamos p {
   padding: 20px;
-  margin: 150px;
+  margin: 50px;
   font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 3rem;
@@ -126,22 +126,28 @@ header a {
   font-size: "Inter", sans-serif;
 }
 
-.button {
-  background-color: rgba(164, 43, 49, 0.8156862745);
-  font-family: "Libre Franklin", sans-serif;
-  font-size: 25px;
-  border: none;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  font-weight: 1rem;
-  width: 400px;
-  height: 150px;
-  border-radius: 12px;
+.informate {
+  margin: 150px;
+  padding: 10px;
+  text-align: center;
 }
-
-.button:hover {
-  background-color: #591518;
-  cursor: pointer;
-  transition: 0.3s;
+.informate p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.informate a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 2rem;
+  color: rgba(164, 43, 49, 0.8156862745);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.informate a:hover {
+  text-decoration: underline;
+  color: #591518;
 }
 
 /*Footer*/
@@ -381,6 +387,7 @@ main {
   font-weight: 1;
   font-size: 1.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: initial;
 }
 
 /*Mixin de parrafos*/
@@ -413,6 +420,10 @@ main {
   font-family: "Libre Franklin", sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+.contenedorcripto .contenidocripto p,
+.contenedorcripto .contenido p {
+  font-size: 1.5rem;
+}
 .contenedorcripto .contenidocripto .contenidoparrafo,
 .contenedorcripto .contenido .contenidoparrafo {
   font-family: "Inter", sans-serif;
@@ -443,7 +454,11 @@ main {
   font-weight: 1rem;
   width: 400px;
   height: 150px;
+  display: flex;
+  justify-content: center;
   border-radius: 12px;
+  display: block;
+  margin: 0 auto;
   margin-bottom: 150px;
 }
 .button .button:hover {
@@ -460,7 +475,7 @@ main .form-container {
   display: block;
 }
 main .form-container form {
-  width: 600px;
+  width: 400px;
   height: auto;
   margin-left: 50px;
   margin-top: 40px;
@@ -491,7 +506,7 @@ main .h1form h1 {
   font-family: "Libre Franklin", sans-serif;
 }
 main .botonenviar {
-  width: 400px;
+  width: 200px;
   height: 50px;
   align-items: center;
   margin: auto;
@@ -509,7 +524,7 @@ main .h2contacto {
   font-family: "Libre Franklin", sans-serif;
 }
 main .containercontactocv {
-  display: flex;
+  display: block;
   justify-content: center;
   gap: 220px;
   margin-bottom: 150px;
@@ -522,7 +537,7 @@ main .seccion ul {
   padding: 100px;
   margin: auto;
   height: 550px;
-  width: 500px;
+  width: 400px;
   border-radius: 20px;
   text-align: left;
   font-size: 1.3rem;
@@ -654,17 +669,14 @@ main .h2cv {
     font-weight: 200;
     font-family: "Libre Franklin", sans-serif;
   }
-  .form-container form {
-    width: auto;
-  }
-  .form-container form label {
+  .form-container .form label {
     font-size: 16px;
   }
-  .form-container form input[type=text],
-  .form-container form textarea {
+  .form-container .form input[type=text],
+  .form-container .form textarea {
     font-size: 14px;
   }
-  .form-container form button.botonenviar {
+  .form-container .form button.botonenviar {
     font-size: 14px;
   }
   .containercontactocv ul {

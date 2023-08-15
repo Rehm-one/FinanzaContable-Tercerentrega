@@ -10,9 +10,11 @@
     font-weight: 1rem;
     width: 400px;
     height: 150px;
-
+    display: flex;
+    justify-content: center;
     border-radius: 12px;
-
+    display: block;
+    margin: 0 auto;
 }
 
 @mixin parrafos { 
@@ -96,7 +98,7 @@
 
   p{ 
     padding: 20px;
-    margin: 150px;
+    margin: 50px;
     @include parrafos;
     font-size: $fontparatexto;
   }
@@ -105,14 +107,34 @@
 
 
 
-.button {
-   @include boton; 
+.informate {
+    
+    margin: 150px;
+    padding: 10px;
+    text-align: center;
+   
+    p {
+      margin-bottom: 10px;
+      font-weight: bold; 
+      font-size: 2rem;      
+      font-family: $fontparatexto;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+      
+     }
+  
+    a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 2rem;
+      color: #a42b31d0;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      &:hover {
+        text-decoration: underline;
+       color: #591518;
+      }
+    }
+  
 
 }
 
-.button:hover {
-
-    background-color: $botonhover;
-    cursor: pointer;
-    transition: .3s;
-}

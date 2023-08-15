@@ -119,6 +119,8 @@
 
     text-align: center;
   }  
+  
+
 }
 
 
@@ -151,6 +153,7 @@
 
 
   .form-container {
+   
     .h1form {
       h1 {
         font-size: 20px;
@@ -161,8 +164,8 @@
       }
     }
 
-    form {
-      width: auto;
+    .form {
+      
 
       label {
         font-size: 16px;
