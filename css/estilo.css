@@ -475,7 +475,7 @@ main .form-container {
   display: block;
 }
 main .form-container form {
-  width: 400px;
+  width: 700px;
   height: auto;
   margin-left: 50px;
   margin-top: 40px;
@@ -519,14 +519,18 @@ main .botonenviar {
 main .h2contacto {
   display: flex;
   justify-content: center;
-  font-size: 25px;
+  padding: 10px;
+  margin: 20px;
+  font-size: 250px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.564);
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 main .containercontactocv {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 220px;
+  gap: 150px;
   margin-bottom: 150px;
   font-family: "Inter", sans-serif;
 }
@@ -535,9 +539,8 @@ main .seccion ul {
   flex-direction: column;
   background-color: #585656;
   padding: 100px;
-  margin: auto;
-  height: 550px;
-  width: 400px;
+  height: 400px;
+  width: 450px;
   border-radius: 20px;
   text-align: left;
   font-size: 1.3rem;
@@ -547,6 +550,8 @@ main .seccion ul {
 main .h2cv {
   display: flex;
   justify-content: center;
+  padding: 10px;
+  margin: 20px;
   font-size: 25px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.564);
   font-family: "Inter", sans-serif;
@@ -594,7 +599,8 @@ main .h2cv {
     border: none;
   }
   .containercontactocv {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .h1form {
     text-align: center;
@@ -604,7 +610,7 @@ main .h2cv {
   }
 }
 /*Medias queris para 768px */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .texto {
     position: absolute;
     top: 50%;
@@ -643,6 +649,19 @@ main .h2cv {
   .somos {
     text-align: center;
   }
+  main {
+    padding: 20px;
+  }
+  main .form-container form {
+    width: 100%;
+  }
+  main .h1form h1 {
+    font-size: 1.5rem;
+  }
+  main .containercontactocv .seccion {
+    width: auto;
+    flex-direction: column;
+  }
 }
 /*Medias queris para 468px */
 @media (max-width: 468px) {
@@ -679,8 +698,33 @@ main .h2cv {
   .form-container .form button.botonenviar {
     font-size: 14px;
   }
+  .containercontactocv {
+    flex-direction: row;
+    justify-content: space-between;
+    /* Espacio entre las secciones */
+    gap: 10px;
+    /* Espacio entre las secciones */
+    margin-bottom: 50px;
+    /* Margen inferior reducido */
+  }
+  .containercontactocv .seccion ul {
+    width: 100%; /* Ancho reducido */
+    padding: 10px; /* Padding reducido */
+    margin: 5px; /* Margen reducido */
+  }
+  .containercontactocv .seccion ul li {
+    list-style: none;
+  }
+}
+@media (max-width: 375px) {
   .containercontactocv ul {
-    width: auto;
+    margin: auto;
+  }
+  main .form-container form {
+    width: 300px;
+  }
+  ul {
+    justify-content: center;
   }
 }
 

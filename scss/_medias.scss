@@ -48,16 +48,17 @@
   }
 
   .containercontactocv {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
-  .h1form{ 
+  .h1form {
 
     text-align: center;
   }
 
 
-  .contenido{ 
+  .contenido {
 
     text-align: center;
   }
@@ -68,7 +69,7 @@
 
 /*Medias queris para 768px */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .texto {
     position: absolute;
     top: 50%;
@@ -111,16 +112,34 @@
   .formcontainer {
 
     .h1form {
-  
+
       text-align: center;
     }
   }
-  .somos{ 
+
+  .somos {
 
     text-align: center;
-  }  
-  
+  }
 
+  main {
+    padding: 20px;
+
+    .form-container form {
+      width: 100%;
+      ;
+    }
+
+    .h1form h1 {
+
+      font-size: 1.5rem;
+    }
+
+    .containercontactocv .seccion {
+      width: auto;
+      flex-direction: column;
+    }
+  }
 }
 
 
@@ -128,16 +147,17 @@
 @media (max-width: 468px) {
   .contable {
     display: none;
+
     .texto {
       font-size: 24px;
     }
   }
 
-  .button{ 
-    
+  .button {
+
     width: 300px;
   }
- 
+
 
   .principalesServicios {
     font-size: 2rem;
@@ -153,7 +173,7 @@
 
 
   .form-container {
-   
+
     .h1form {
       h1 {
         font-size: 20px;
@@ -165,7 +185,7 @@
     }
 
     .form {
-      
+
 
       label {
         font-size: 16px;
@@ -183,25 +203,50 @@
   }
 
 
+
   .containercontactocv {
-
-    ul {
-
-      width: auto;
-    }
-
+    
+    flex-direction: row;
+    justify-content: space-between;
+    /* Espacio entre las secciones */
+    gap: 10px;
+    /* Espacio entre las secciones */
+    margin-bottom: 50px;
+    /* Margen inferior reducido */
+    .seccion ul {
+      li{ 
+        list-style: none;
+      }
+   
+      width: 100%; /* Ancho reducido */
+      padding: 10px; /* Padding reducido */
+      margin: 5px; /* Margen reducido */
+  }
+  
   }
 
 
 
 
+}
 
 
 
 
+@media (max-width: 375px) {
 
+  .containercontactocv ul {
 
+    margin: auto;
+  }
 
+  main .form-container form {
+    width: 300px;
+  }
+
+  ul {
+    justify-content: center;
+  }
 
 
 
