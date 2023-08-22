@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Header*/
 header {
   background-color: #FBF2E5;
@@ -126,26 +127,38 @@ header a {
   font-size: "Inter", sans-serif;
 }
 
-.informate {
-  margin: 150px;
+.contenedor-centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  /* Ajusta la altura según tu diseño */
+}
+.contenedor-centrado .informate {
   padding: 10px;
+  width: 400px;
+  margin: 0%;
+  justify-content: center;
   text-align: center;
 }
-.informate p {
+.contenedor-centrado .informate p {
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 2rem;
+  display: flex;
+  text-align: center;
+  margin: 0%;
+  justify-content: center;
   font-family: "Inter", sans-serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.informate a {
+.contenedor-centrado .informate a {
   text-decoration: none;
   color: inherit;
   font-size: 2rem;
   color: rgba(164, 43, 49, 0.8156862745);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.informate a:hover {
+.contenedor-centrado .informate a:hover {
   text-decoration: underline;
   color: #591518;
 }
@@ -345,7 +358,6 @@ div .card {
 
 /*Servicios que brindamos - Servicios site*/
 main {
-  max-width: 1600px;
   margin: 0 auto;
   padding: 20px;
 }

@@ -1,6 +1,6 @@
 /*Servicios - HOME */
 
-@mixin boton { 
+@mixin boton {
 
     background-color: $colorboton;
     font-family: 'Libre Franklin', sans-serif;
@@ -17,9 +17,9 @@
     margin: 0 auto;
 }
 
-@mixin parrafos { 
+@mixin parrafos {
 
-    
+
     font-family: $fontparatexto;
     font-weight: 200;
     font-size: 3rem;
@@ -27,31 +27,35 @@
 }
 
 
-.ofrecemos { 
+.ofrecemos {
 
     text-align: center;
-    h1{ 
+
+    h1 {
         font-family: $fontparatexto;
     }
 
-    .contenido { 
+    .contenido {
         text-align: left;
-        p { 
+
+        p {
             font-size: 50px;
             text-align: left;
-        }        
+        }
     }
 }
+
 .principalesServicios {
 
-    
+
     text-align: center;
     margin: 60px;
-    @include parrafos; 
+    @include parrafos;
     font-family: $fontparatexto;
-    
+
 
 }
+
 .containerservicios {
     display: flex;
     flex-wrap: wrap;
@@ -59,7 +63,8 @@
     gap: 150px;
     margin: 20px;
     margin-top: 150px;
-    div{ 
+
+    div {
         text-align: center;
     }
 
@@ -73,11 +78,11 @@
     width: 110px;
     height: 110px;
 
-    p{ 
-        
+    p {
 
-    @include parrafos;
-    font-family: $fontparatexto;
+
+        @include parrafos;
+        font-family: $fontparatexto;
 
     }
 }
@@ -87,54 +92,69 @@
 
     @include parrafos;
     font-family: $fontparatexto;
-    
+
 }
 
 .brindamos {
     display: flex;
     justify-content: center;
     text-align: center;
-   
-
-  p{ 
-    padding: 20px;
-    margin: 50px;
-    @include parrafos;
-    font-size: $fontparatexto;
-  }
-    
-}
 
 
-
-.informate {
-    
-    margin: 150px;
-    padding: 10px;
-    text-align: center;
-   
     p {
-      margin-bottom: 10px;
-      font-weight: bold; 
-      font-size: 2rem;      
-      font-family: $fontparatexto;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
-      
-     }
-  
-    a {
-      text-decoration: none;
-      color: inherit;
-      font-size: 2rem;
-      color: #a42b31d0;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      &:hover {
-        text-decoration: underline;
-       color: #591518;
-      }
+        padding: 20px;
+        margin: 50px;
+        @include parrafos;
+        font-size: $fontparatexto;
     }
-  
 
 }
 
+.contenedor-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* Ajusta la altura según tu diseño */
+
+
+    .informate {
+
+
+        padding: 10px;
+        width: 400px;
+        margin: 0%;
+        justify-content: center;
+        text-align: center;
+
+        p {
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 2rem;
+            display: flex;
+            text-align: center;
+
+            margin: 0%;
+            justify-content: center;
+            font-family: $fontparatexto;
+            
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 2rem;
+            color: #a42b31d0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+            &:hover {
+                text-decoration: underline;
+                color: #591518;
+            }
+        }
+
+
+    }
+}
