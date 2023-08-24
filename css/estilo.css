@@ -713,16 +713,13 @@ main .h2cv {
   .containercontactocv {
     flex-direction: row;
     justify-content: space-between;
-    /* Espacio entre las secciones */
     gap: 10px;
-    /* Espacio entre las secciones */
     margin-bottom: 50px;
-    /* Margen inferior reducido */
   }
   .containercontactocv .seccion ul {
-    width: 95%; /* Ancho reducido */
-    padding: 10px; /* Padding reducido */
-    margin: 5px; /* Margen reducido */
+    width: 95%;
+    padding: 10px;
+    margin: 5px;
   }
   .containercontactocv .seccion ul li {
     list-style: none;
