@@ -662,10 +662,10 @@ main .h2cv {
     text-align: center;
   }
   main {
-    padding: 20px;
+    overflow: hidden;
   }
   main .form-container form {
-    width: 100%;
+    width: 90%;
   }
   main .h1form h1 {
     font-size: 1.5rem;
@@ -720,7 +720,7 @@ main .h2cv {
     /* Margen inferior reducido */
   }
   .containercontactocv .seccion ul {
-    width: 100%; /* Ancho reducido */
+    width: 95%; /* Ancho reducido */
     padding: 10px; /* Padding reducido */
     margin: 5px; /* Margen reducido */
   }
